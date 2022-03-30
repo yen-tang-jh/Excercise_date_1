@@ -20,3 +20,4 @@ We have 2 big branch call master (to hold test features for test site) & product
 
 -   "git reset --soft <name_branch>
 -   "git commit"
+-   "git push --force"
