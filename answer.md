@@ -12,14 +12,11 @@ We have 2 big branch call master (to hold test features for test site) & product
 
 **Q2:** _(Ap) If we have a feature branch that haven't been merged to production and that branch have bug, what course of action are you going to do with Git to before resolving the bug?_
 
-**Answer:**
-
--   We do nothing because it haven't been merged yet.
+**Answer:** We do nothing because it haven't been merged yet.
 
 **Q3:** _(Ap & Ev) If someone accidentally merge a feature (feature/delete-user) onto production and have a list of commitId ended with (0492978, fc9348c, k101100), then another commit (a1fsas8) is added on top of the production branch. How do we remove that merged feature?_
 
-**Answer:** they can use revert command like this: "git revert a1fsas8"
-After reverting, we can merge again but there is nothing to change because it already up to date.
-We can revert the "revert commit" to back to the old code of branch
+**Answer:** Use reset command to back to the commit need to be removed and commit a relevant to the last:
 
-hshshshshs
+-   "git reset --soft <name_branch>
+-   "git commit"
