@@ -21,3 +21,5 @@ We have 2 big branch call master (to hold test features for test site) & product
 **Answer:** they can use revert command like this: "git revert a1fsas8"
 After reverting, we can merge again but there is nothing to change because it already up to date.
 We can revert the "revert commit" to back to the old code of branch
+
+hshshshshs
