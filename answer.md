@@ -18,5 +18,4 @@ We have 2 big branch call master (to hold test features for test site) & product
 **Q3:** _(Ap & Ev) If someone accidentally merge a feature (feature/delete-user) onto production and have a list of commitId ended with (0492978, fc9348c, k101100), then another commit (a1fsas8) is added on top of the production branch. How do we remove that merged feature?_
 
 **Answer:** they can use revert command like this: "git revert a1fsas8"
-abccncnc
-áhshshshsj
+js
