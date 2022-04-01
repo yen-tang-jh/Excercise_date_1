@@ -19,3 +19,4 @@ We have 2 big branch call master (to hold test features for test site) & product
 
 **Answer:** they can use revert command like this: "git revert a1fsas8"
 js
+dasas
